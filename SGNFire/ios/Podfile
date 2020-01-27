@@ -36,10 +36,10 @@ target 'SGNFire' do
 
   # pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
 
-  # # firebase
-  # # Required by RNFirebase
-  # pod 'Firebase/Core', '~> 6.3.0'
-  # pod 'Firebase/Auth', '~> 6.3.0'
+  # firebase
+  # Required by RNFirebase
+  pod 'Firebase/Core', '~> 6.3.0'
+  pod 'Firebase/Auth', '~> 6.3.0'
   # pod 'Firebase/Messaging', '~> 6.3.0'
 
   target 'SGNFireTests' do

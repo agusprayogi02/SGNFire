@@ -3,6 +3,7 @@ import Home from '../Screens/Home'
 import Obrolan from '../Screens/Obrolan'
 import LoginController from '../LoginController';
 import AuthLoadingScreen from './AuthLoadingScreen';
+import { createStackNavigator } from 'react-navigation-stack';
 
 const AppStack = createStackNavigator({ Home: Home, Other: Obrolan });
 const AuthStack = createStackNavigator({ SignIn: LoginController });
